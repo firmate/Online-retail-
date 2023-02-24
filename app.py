@@ -3,8 +3,6 @@ import pandas as pd
 import numpy as np
 import random
 import matplotlib.pyplot as plt
-from PIL import Image
-import io
 
 product_df = np.loadtxt("/Users/tanyapaauesongthum/Downloads/product_images.csv",delimiter=",",skiprows=1)
 labelspred_df = np.loadtxt("/Users/tanyapaauesongthum/Downloads/labels_pred.csv",delimiter=",",skiprows=1, usecols=(1))
