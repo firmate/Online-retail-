@@ -4,8 +4,8 @@ import numpy as np
 import random
 import matplotlib.pyplot as plt
 
-product_df = np.loadtxt("/Users/tanyapaauesongthum/Downloads/product_images.csv",delimiter=",",skiprows=1)
-labelspred_df = np.loadtxt("/Users/tanyapaauesongthum/Downloads/labels_pred.csv",delimiter=",",skiprows=1, usecols=(1))
+product_df = np.loadtxt("./product_images.csv",delimiter=",",skiprows=1)
+labelspred_df = np.loadtxt("./labels_pred.csv",delimiter=",",skiprows=1, usecols=(1))
 
 # Title
 st.title("Online Retail Store")
